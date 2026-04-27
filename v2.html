@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAS English Medium School - Inspiring Excellence</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        masGreen: '#004d2c',
+                        masLightGreen: '#f1f8f4',
+                        masGold: '#a38a4d',
+                    },
+                    fontFamily: {
+                        serif: ['"Playfair Display"', 'serif'],
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .custom-shadow { box-shadow: 0 10px 30px rgba(0,0,0,0.05); }
+    </style>
+</head>
+<body class="font-sans text-gray-800">
+
+    <header class="bg-masGreen text-white text-[11px] py-2 px-6 md:px-16 flex justify-between items-center border-b border-white/10">
+        <span class="font-medium">Nurturing Minds. Building Futures.</span>
+        <div class="flex gap-6">
+            <a href="#" class="hover:text-gray-300 transition"><i class="fas fa-user-graduate mr-1"></i> Student Portal</a>
+            <a href="#" class="hover:text-gray-300 transition"><i class="fas fa-user-lock mr-1"></i> Parent Login</a>
+            <a href="#" class="hover:text-gray-300 transition"><i class="fas fa-briefcase mr-1"></i> Careers</a>
+        </div>
+    </header>
+
+    <nav class="bg-white px-6 md:px-16 py-4 flex justify-between items-center sticky top-0 z-50 shadow-sm">
+        <div class="flex items-center gap-3">
+            <div class="w-12 h-12 bg-masGreen rounded-md flex items-center justify-center text-white font-bold text-2xl italic">M</div>
+            <div>
+                <h1 class="text-2xl font-bold text-masGreen leading-none tracking-tight">MAS</h1>
+                <p class="text-[10px] uppercase font-bold tracking-[0.2em] text-gray-500">English Medium School</p>
+                <p class="text-[8px] italic text-gray-400">Learn • Grow • Excel</p>
+            </div>
+        </div>
+        <div class="hidden lg:flex items-center gap-6 text-[13px] font-semibold uppercase tracking-wide">
+            <a href="#" class="text-masGreen border-b-2 border-masGreen pb-1">Home</a>
+            <a href="#" class="hover:text-masGreen transition">About Us</a>
+            <a href="#" class="hover:text-masGreen transition">Academics</a>
+            <a href="#" class="hover:text-masGreen transition">Admissions</a>
+            <a href="#" class="hover:text-masGreen transition">Facilities</a>
+            <a href="#" class="hover:text-masGreen transition">Gallery</a>
+            <a href="#" class="hover:text-masGreen transition">News & Events</a>
+            <a href="#" class="hover:text-masGreen transition">Contact Us</a>
+        </div>
+        <a href="v2form.html">
+        <button class="bg-masGreen text-white px-6 py-2.5 rounded text-xs font-bold uppercase flex items-center gap-2 hover:bg-opacity-90">
+            Enquire Now <i class="fas fa-arrow-right text-[10px]"></i>
+        </button>
+        </a>
+
+    </nav>
+
+    <section class="relative h-[550px] flex items-center overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="static/image1.jpeg" class="w-full h-full object-cover" alt="School Banner">
+            <div class="absolute inset-0 bg-white/40"></div>
+        </div>
+        <div class="relative z-10 px-6 md:px-16 max-w-3xl">
+            <h2 class="font-serif text-6xl text-masGreen leading-[1.1] mb-6">Inspiring Excellence, <br>Shaping Tomorrow.</h2>
+            <p class="text-gray-700 text-lg mb-8 leading-relaxed max-w-xl">
+                MAS English Medium School provides a nurturing environment where every child learns, grows and excels with confidence.
+            </p>
+            <div class="flex flex-wrap gap-4">
+                <button class="bg-masGreen text-white px-8 py-3.5 rounded font-bold text-sm hover:translate-y-[-2px] transition-all">Admissions Open 2024-25 &rarr;</button>
+                <button class="bg-white border-2 border-masGreen text-masGreen px-8 py-3.5 rounded font-bold text-sm flex items-center gap-2">Take a Campus Tour <i class="fas fa-play-circle text-xl"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="px-6 md:px-16 py-10 bg-masLightGreen grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div class="flex gap-4">
+            <div class="bg-masGreen text-white min-w-[50px] h-[50px] rounded-full flex items-center justify-center shadow-md">
+                <i class="fas fa-book-open"></i>
+            </div>
+            <div>
+                <h4 class="font-bold text-sm mb-1">Quality Education</h4>
+                <p class="text-xs text-gray-600 leading-relaxed">CBSE curriculum with a focus on conceptual learning.</p>
+            </div>
+        </div>
+        <div class="flex gap-4">
+            <div class="bg-masGreen text-white min-w-[50px] h-[50px] rounded-full flex items-center justify-center shadow-md">
+                <i class="fas fa-chalkboard-user"></i>
+            </div>
+            <div>
+                <h4 class="font-bold text-sm mb-1">Experienced Faculty</h4>
+                <p class="text-xs text-gray-600 leading-relaxed">Dedicated teachers guiding every student.</p>
+            </div>
+        </div>
+        <div class="flex gap-4">
+            <div class="bg-masGreen text-white min-w-[50px] h-[50px] rounded-full flex items-center justify-center shadow-md">
+                <i class="fas fa-trophy"></i>
+            </div>
+            <div>
+                <h4 class="font-bold text-sm mb-1">Holistic Development</h4>
+                <p class="text-xs text-gray-600 leading-relaxed">Academic excellence with sports, arts & life skills.</p>
+            </div>
+        </div>
+        <div class="flex gap-4">
+            <div class="bg-masGreen text-white min-w-[50px] h-[50px] rounded-full flex items-center justify-center shadow-md">
+                <i class="fas fa-shield-halved"></i>
+            </div>
+            <div>
+                <h4 class="font-bold text-sm mb-1">Safe & Nurturing Campus</h4>
+                <p class="text-xs text-gray-600 leading-relaxed">A secure and friendly environment for your child.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="px-6 md:px-16 py-20 grid grid-cols-1 lg:grid-cols-3 gap-10 items-start">
+        <div>
+            <span class="text-masGreen font-bold text-xs uppercase tracking-widest block mb-4">About Us —</span>
+            <h3 class="font-serif text-4xl text-masGreen mb-6">A Place Where Every Child Thrives</h3>
+            <p class="text-gray-600 text-sm leading-7 mb-8">
+                At MAS English Medium School, we believe in nurturing young minds with knowledge, values and creativity. Our mission is to empower students to become responsible global citizens and lifelong learners.
+            </p>
+            <button class="bg-masGreen text-white px-6 py-3 rounded text-xs font-bold uppercase tracking-wider">Know More About Us &rarr;</button>
+        </div>
+
+        <div class="relative">
+            <img src="https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&q=80&w=600" class="w-full rounded-sm mb-0 shadow-lg" alt="Classroom">
+            <div class="bg-masGreen text-white p-8 mt-[-20px] relative z-10">
+                <i class="fas fa-quote-left text-3xl text-white/30 mb-4 block"></i>
+                <p class="text-lg font-medium leading-relaxed italic mb-4">
+                    Education is the most powerful weapon which you can use to change the world.
+                </p>
+                <p class="text-xs uppercase tracking-widest font-bold">— Nelson Mandela</p>
+            </div>
+        </div>
+
+        <div class="bg-white p-2 border border-gray-100 custom-shadow">
+            <div class="bg-masLightGreen p-6 mb-4">
+                <span class="text-masGreen font-bold text-xs uppercase tracking-widest block mb-4">Why Choose Us —</span>
+                <ul class="space-y-4 text-sm font-medium text-gray-700">
+                    <li class="flex items-center gap-3"><i class="fas fa-university text-masGreen w-4"></i> CBSE Affiliated Curriculum</li>
+                    <li class="flex items-center gap-3"><i class="fas fa-laptop-code text-masGreen w-4"></i> Smart Classrooms</li>
+                    <li class="flex items-center gap-3"><i class="fas fa-microscope text-masGreen w-4"></i> Well Equipped Laboratories</li>
+                    <li class="flex items-center gap-3"><i class="fas fa-book-reader text-masGreen w-4"></i> Library with Digital Resources</li>
+                    <li class="flex items-center gap-3"><i class="fas fa-bus text-masGreen w-4"></i> Transportation Facility</li>
+                </ul>
+            </div>
+            <div class="bg-white p-6">
+                 <h4 class="font-bold text-xs uppercase tracking-widest mb-4">Quick Links</h4>
+                 <div class="divide-y divide-gray-100 text-sm">
+                    <a href="#" class="flex justify-between py-3 hover:text-masGreen">Academic Calendar <i class="fas fa-chevron-right text-[10px]"></i></a>
+                    <a href="#" class="flex justify-between py-3 hover:text-masGreen">Fee Structure <i class="fas fa-chevron-right text-[10px]"></i></a>
+                    <a href="#" class="flex justify-between py-3 hover:text-masGreen">Download Prospectus <i class="fas fa-chevron-right text-[10px]"></i></a>
+                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-masGreen text-white py-12 px-6 md:px-16 grid grid-cols-2 md:grid-cols-5 gap-8 text-center border-y border-white/10">
+        <div>
+            <i class="fas fa-graduation-cap text-3xl mb-4 opacity-50"></i>
+            <h3 class="text-3xl font-bold mb-1">15+</h3>
+            <p class="text-[10px] uppercase tracking-widest font-bold opacity-70">Years Excellence</p>
+        </div>
+        <div>
+            <i class="fas fa-users text-3xl mb-4 opacity-50"></i>
+            <h3 class="text-3xl font-bold mb-1">2000+</h3>
+            <p class="text-[10px] uppercase tracking-widest font-bold opacity-70">Students</p>
+        </div>
+        <div>
+            <i class="fas fa-user-tie text-3xl mb-4 opacity-50"></i>
+            <h3 class="text-3xl font-bold mb-1">100+</h3>
+            <p class="text-[10px] uppercase tracking-widest font-bold opacity-70">Qualified Teachers</p>
+        </div>
+        <div>
+            <i class="fas fa-chart-line text-3xl mb-4 opacity-50"></i>
+            <h3 class="text-3xl font-bold mb-1">98%</h3>
+            <p class="text-[10px] uppercase tracking-widest font-bold opacity-70">Success Rate</p>
+        </div>
+        <div>
+            <i class="fas fa-building text-3xl mb-4 opacity-50"></i>
+            <h3 class="text-3xl font-bold mb-1">10+</h3>
+            <p class="text-[10px] uppercase tracking-widest font-bold opacity-70">Modern Facilities</p>
+        </div>
+    </section>
+
+    <footer class="bg-white px-6 md:px-16 py-16 grid grid-cols-1 md:grid-cols-4 gap-12 border-t border-gray-100">
+        <div class="space-y-6">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-masGreen rounded flex items-center justify-center text-white font-bold italic">M</div>
+                <div>
+                    <h1 class="text-xl font-bold text-masGreen leading-none">MAS</h1>
+                    <p class="text-[8px] uppercase font-bold tracking-widest">English Medium School</p>
+                </div>
+            </div>
+            <p class="text-xs text-gray-500 leading-relaxed">
+                MAS English Medium School is committed to providing quality education and holistic development in a safe and nurturing environment.
+            </p>
+            <div class="flex gap-4 text-masGreen">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+
+        <div>
+            <h4 class="font-bold text-sm mb-6 border-b-2 border-masGreen w-fit pb-1">Quick Links</h4>
+            <ul class="text-xs space-y-3 text-gray-600 font-medium">
+                <li><a href="#" class="hover:text-masGreen">Home</a></li>
+                <li><a href="#" class="hover:text-masGreen">About Us</a></li>
+                <li><a href="#" class="hover:text-masGreen">Academics</a></li>
+                <li><a href="#" class="hover:text-masGreen">Admissions</a></li>
+                <li><a href="#" class="hover:text-masGreen">News & Events</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h4 class="font-bold text-sm mb-6 border-b-2 border-masGreen w-fit pb-1">Important Links</h4>
+            <ul class="text-xs space-y-3 text-gray-600 font-medium">
+                <li><a href="#" class="hover:text-masGreen">Academic Calendar</a></li>
+                <li><a href="#" class="hover:text-masGreen">Download Prospectus</a></li>
+                <li><a href="#" class="hover:text-masGreen">Fee Structure</a></li>
+                <li><a href="#" class="hover:text-masGreen">Student Portal</a></li>
+                <li><a href="#" class="hover:text-masGreen">Parent Login</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h4 class="font-bold text-sm mb-6 border-b-2 border-masGreen w-fit pb-1">Contact Us</h4>
+            <ul class="text-xs space-y-4 text-gray-600">
+                <li class="flex items-center gap-3"><i class="fas fa-phone text-masGreen"></i> +91 1234 567 890</li>
+                <li class="flex items-center gap-3"><i class="fas fa-envelope text-masGreen"></i> info@maschool.in</li>
+                <li class="flex items-start gap-3"><i class="fas fa-map-marker-alt text-masGreen mt-1"></i> MAS School Campus, Your Street,<br>Your City, Kerala - 676XXX</li>
+            </ul>
+        </div>
+    </footer>
+
+    <div class="bg-masGreen text-white/60 text-[10px] py-4 px-16 flex justify-between">
+        <span>© 2024 MAS English Medium School. All Rights Reserved.</span>
+        <div class="space-x-4 uppercase font-bold">
+            <a href="#">Privacy Policy</a>
+            <span>|</span>
+            <a href="#">Terms & Conditions</a>
+        </div>
+    </div>
+
+</body>
+<script>
+    // 1. Smooth Scrolling for Navigation Links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                target.scrollIntoView({
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+
+    // 2. Handle 'Enquire Now' and 'Admission' Buttons
+    const actionButtons = document.querySelectorAll('button');
+    
+    actionButtons.forEach(btn => {
+        btn.addEventListener('click', function() {
+            const btnText = this.innerText.toLowerCase();
+            
+            if (btnText.includes('enquire')) {
+                showModal('Inquiry Form', 'Please enter your details and our admission counselor will call you back.');
+            } else if (btnText.includes('admission')) {
+                showModal('Admission Portal', 'Redirecting to the 2024-25 Application Portal...');
+            } else if (btnText.includes('tour')) {
+                alert('Launching 360° Virtual Campus Tour...');
+            }
+        });
+    });
+
+    // 3. Simple Modal / Toast Feedback System
+    function showModal(title, message) {
+        // Create overlay
+        const overlay = document.createElement('div');
+        overlay.className = 'fixed inset-0 bg-black/50 z-[100] flex items-center justify-center p-4';
+        
+        overlay.innerHTML = `
+            <div class="bg-white rounded-lg p-8 max-w-sm w-full shadow-2xl transform transition-all scale-110">
+                <h3 class="text-masGreen font-bold text-xl mb-2">${title}</h3>
+                <p class="text-gray-600 text-sm mb-6">${message}</p>
+                <div class="space-y-3">
+                    <input type="text" placeholder="Student Name" class="w-full border border-gray-300 p-2 rounded text-sm outline-none focus:border-masGreen">
+                    <input type="email" placeholder="Email Address" class="w-full border border-gray-300 p-2 rounded text-sm outline-none focus:border-masGreen">
+                    <button onclick="this.parentElement.parentElement.parentElement.remove()" class="w-full bg-masGreen text-white py-2 rounded font-bold text-sm">Submit Request</button>
+                    <button onclick="this.parentElement.parentElement.parentElement.remove()" class="w-full text-gray-400 text-xs font-bold uppercase tracking-widest">Close</button>
+                </div>
+            </div>
+        `;
+        document.body.appendChild(overlay);
+    }
+
+    // 4. Hover Effects for Interactive Elements
+    const cards = document.querySelectorAll('.custom-shadow');
+    cards.forEach(card => {
+        card.addEventListener('mouseenter', () => {
+            card.style.transform = 'translateY(-5px)';
+            card.style.transition = 'transform 0.3s ease';
+        });
+        card.addEventListener('mouseleave', () => {
+            card.style.transform = 'translateY(0)';
+        });
+    });
+
+    // 5. Console Log for Debugging
+    console.log("MAS School Website Scripts Initialized Successfully.");
+</script>
+</html>
